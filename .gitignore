@@ -1,0 +1,40 @@
+# Python caches and local build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.cache/
+cache/
+tmp/
+temp/
+*.log
+
+# Local environments
+.env
+.venv/
+venv/
+env/
+
+# Downloaded models, datasets, and generated artifacts
+/models/
+/data/
+/outputs/
+/output/
+/logs/
+/runs/
+/lightning_logs/
+/checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+
+# Inference outputs
+swing.mp4
+360.mp4
+*.mp4
